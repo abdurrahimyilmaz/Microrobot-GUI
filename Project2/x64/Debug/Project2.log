@@ -1,0 +1,6 @@
+﻿  Form1.cpp
+Form1.cpp(14): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+Form1.obj : error LNK2028: unresolved token (0A0004F3) "extern "C" int __cdecl PI_InterfaceSetupDlg(char const *)" (?PI_InterfaceSetupDlg@@$$J0YAHPEBD@Z) referenced in function "void __clrcall main(cli::array<System::PE$AAVString >^)" (?main@@$$HYMXP$01EAPE$AAVString@System@@@Z)
+Form1.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl PI_InterfaceSetupDlg(char const *)" (?PI_InterfaceSetupDlg@@$$J0YAHPEBD@Z) referenced in function "void __clrcall main(cli::array<System::PE$AAVString >^)" (?main@@$$HYMXP$01EAPE$AAVString@System@@@Z)
+PI_GCS2_DLL.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\Hedef\Okul\Mikro-Nano\Coding\Project2\x64\Debug\Project2.exe : fatal error LNK1120: 2 unresolved externals

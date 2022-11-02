@@ -1,0 +1,26 @@
+﻿Build started 21.07.2018 16:53:47.
+     1>Project "C:\Users\mikro\Desktop\Mikrorobot Çalışmaları\mikro-lazer-kontrol_stage (2) yedek\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\opencv\build\include" /I"C:\Program Files (x86)\opencv\build\x86\vc12\bin" /I"C:\Program Files (x86)\Point Grey Research\FlyCapture2\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Form1.cpp
+         Form1.cpp
+     1>Form1.cpp(42): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+     1>Form1.cpp(238): warning C4800: 'const char *': forcing value to bool 'true' or 'false' (performance warning)
+     1>Form1.cpp(243): warning C4800: 'const char *': forcing value to bool 'true' or 'false' (performance warning)
+     1>Form1.cpp(265): warning C4800: 'const char *': forcing value to bool 'true' or 'false' (performance warning)
+     1>Form1.cpp(274): warning C4800: 'const char *': forcing value to bool 'true' or 'false' (performance warning)
+     1>Form1.cpp(275): warning C4800: 'const char *': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\mikro\desktop\mikrorobot çalışmaları\mikro-lazer-kontrol_stage (2) yedek\project2\form1.cpp(187): warning C4715: 'Project2::Form1::MoveAxis': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mikro\Desktop\Mikrorobot Çalışmaları\mikro-lazer-kontrol_stage (2) yedek\Debug\arayuz_kontrol.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\opencv\build\x86\vc12\lib" /LIBPATH:"C:\Program Files (x86)\Point Grey Research\FlyCapture2\lib" FlyCapture2_v100.lib FlyCapture2d_v100.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib /ASSEMBLYRESOURCE:Debug\Project2.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mikro\Desktop\Mikrorobot Çalışmaları\mikro-lazer-kontrol_stage (2) yedek\Debug\arayuz_kontrol.pdb" /ASSEMBLYDEBUG /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Dynamixel.obj
+         Debug\Form1.obj
+         Debug\SerialPort.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         MEDAQLib.lib
+         "PI_GCS2_DLL.lib"
+         Project2.vcxproj -> C:\Users\mikro\Desktop\Mikrorobot Çalışmaları\mikro-lazer-kontrol_stage (2) yedek\Debug\arayuz_kontrol.exe
+     1>Done Building Project "C:\Users\mikro\Desktop\Mikrorobot Çalışmaları\mikro-lazer-kontrol_stage (2) yedek\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10
